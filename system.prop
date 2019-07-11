@@ -99,7 +99,3 @@ persist.radio.volte.dan_support=true
 persist.data.iwlan=1
 persist.data.iwlan.ipsec.ap=1
 persist.sys.cust.lte_config=true
-
-# SSR
-persist.vendor.ssr.enable_ramdumps=0
-persist.vendor.ssr.restart_level=ALL_ENABLE
