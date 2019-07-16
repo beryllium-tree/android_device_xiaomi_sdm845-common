@@ -58,6 +58,8 @@ persist.dbg.ims_volte_enable=1
 persist.radio.calls.on.ims=1
 
 # Media
+debug.stagefright.omx_default_rank.sw-audio=1
+debug.stagefright.omx_default_rank=0
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Memory optimizations
