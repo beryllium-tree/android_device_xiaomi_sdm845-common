@@ -12,7 +12,7 @@ persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
 ro.bluetooth.a2dp_offload.supported=true
-ro.bluetooth.library_name=libbluetooth_qti.so
+#ro.bluetooth.library_name=libbluetooth_qti.so
 vendor.bluetooth.soc=cherokee
 
 # Camera
@@ -63,7 +63,8 @@ persist.radio.calls.on.ims=1
 # Media
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+#media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.settings.xml=/vendor/etc/media_profiles_V1_0.xml
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
